@@ -8,8 +8,7 @@ class MaximaJupyterInstaller < Formula
   depends_on "curl"
 
   def install
-    cp maxima-jupyter-install.sh #{prefix}
-    chmod a+x #{prefix}/maxima-jupyter-install.sh
+    bin.install maxima-jupyter-install.sh
   end
 
   test do
