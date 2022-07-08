@@ -10,6 +10,7 @@ class MaximaJupyterInstaller < Formula
 
   def install
     bin.install "maxima-jupyter-installer"
+    ohai "Use maxima-jupyter-installer command to actually install maxima-jupyter"
   end
 
   test do
