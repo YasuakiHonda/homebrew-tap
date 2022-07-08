@@ -9,7 +9,7 @@ class MaximaJupyterInstaller < Formula
   depends_on "maxima"
 
   def install
-    bin.install "maxima-jupyter-install.sh"
+    bin.install "maxima-jupyter-installer"
   end
 
   test do
